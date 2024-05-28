@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Школа за обучение по чужди езици</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Начало</a></li>
+                <li><a href="register.html">Регистрация</a></li>
+                <li><a href="login.html">Вход</a></li>
+                <li><a href="test.html">Тест</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Тест за проверка на знания</h2>
+            <form id="testForm">
+                <div class="question">
+                    <label for="q1">Въпрос 1: Кой е столицата на Франция?</label>
+                    <input type="text" id="q1" name="q1" required>
+                </div>
+                <div class="question">
+                    <label for="q2">Въпрос 2: Как се казва най-дългата река в света?</label>
+                    <input type="text" id="q2" name="q2" required>
+                </div>
+                <div class="question">
+                    <label for="q3">Въпрос 3: Колко континента има на Земята?</label>
+                    <input type="number" id="q3" name="q3" required>
+                </div>
+                <button type="submit">Изпрати</button>
+            </form>
+            <div id="testResult"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Школа за обучение по чужди езици. Всички права запазени.</p>
+    </footer>
+</body>
+</html>
